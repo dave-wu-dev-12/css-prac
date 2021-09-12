@@ -1,0 +1,29 @@
+.cartMenuContainer {
+  position: fixed;
+  height: 100vh;
+  background-color: lightgoldenrodyellow;
+  width: 35vw;
+  max-width: 800px;
+  top: 0;
+  right: 0;
+  overflow-y: auto;
+}
+
+.cartMenuImportantInfo {
+  position: sticky;
+  top: 0;
+  background-color: lightgoldenrodyellow;
+  border-bottom: 1px solid black;
+}
+
+.cartItemListContainer {
+  margin-bottom: 30px;
+}
+
+.checkoutButtonContainer {
+  position: fixed;
+  bottom: 0;
+  background-color: lightgoldenrodyellow;
+  border-top: 1px solid black;
+  width: 100%;
+}

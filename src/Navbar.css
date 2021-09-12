@@ -1,0 +1,41 @@
+.navBarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+  position: relative;
+}
+
+.regularItem {
+  border-bottom: 0px solid red;
+  transition: all 100ms ease-in-out;
+}
+
+.regularItem:hover,
+.regularItem:focus {
+  border-bottom: 5px solid red;
+}
+
+.specialItem {
+  align-self: flex-end;
+}
+
+.specialItem:hover,
+.specialItem:focus {
+  transform: scale(1.5);
+}
+
+.storeLogo {
+  animation: App-logo-spin ease-in-out 2s infinite;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+    color: red;
+  }
+  to {
+    transform: rotate(360deg);
+    color: royalblue;
+  }
+}
